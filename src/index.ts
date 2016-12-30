@@ -8,7 +8,7 @@ interface ThingProps {
 
 const Thing: StatelessComponent<ThingProps> = () => ''
 
-const Example = createExample(Thing, { })
+const Example = createExample<ThingProps>(Thing, { prop1: 'foo' })
 
 const rendered = Example({
     title: 'Thing!',
