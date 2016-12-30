@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "paths": {
+            "react-router": [
+                "styleguide/@types/react-router-4.0.0/index.d.ts"
+            ]
+        },
+        "baseUrl": ".",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ],
+        "outDir": "dist"
+    },
+    "exclude": [
+        "node_modules/",
+        "dist"
+    ]
+}
